@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+<html style="width:100%;height:100%;background:url(logo.png) center center no-repeat;">
+<head>
+<title>Ttechnical Difficulties</title>
+</head>
+<body>
+	<img src="/technical_difficulties.jpg" alt="description" />
+</body>
+</html>
