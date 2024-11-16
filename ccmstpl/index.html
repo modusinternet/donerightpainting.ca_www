@@ -1,0 +1,186 @@
+{CCMS_DB_PRELOAD:all,index-temp}<!DOCTYPE html>
+<html id="no-fouc" lang="{CCMS_LIB:_default.php;FUNC:ccms_lng}" style="opacity: 0;">
+	<head>
+		<meta charset="utf-8">
+		<title>Done Right Painting and Sandblasting, Ltd</title>
+		<meta name="description" content="" />
+
+		{CCMS_TPL:header-head.html}
+		<script>
+			var navActiveArray = [];
+			var navActiveFooterArray = ["home-fl"];
+		</script>
+	</head>
+	<body>
+		{CCMS_TPL:header-body.html}
+		<div class="home-slider">
+			<div id="home-slider" class="carousel slide">
+				<ol class="carousel-indicators">
+					<li data-target="#home-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#home-slider" data-slide-to="1"></li>
+					<li data-target="#home-slider" data-slide-to="2"></li>
+					<li data-target="#home-slider" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active" id="item-1">
+						<div class="home-slider__table">
+							<div class="home-slider-table__inner">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-6" style="background-color: rgba(0,0,0,0.5); padding: 15px;">
+											<div class="home-slider__content">
+												<h1 class="animated slideInDown delay-2" style="font-weight: 800; font-size: 36px; color: white; text-transform: uppercase;">
+													Commercial
+												</h1>
+												<p class="animated slideInLeft delay-4" style="text-indent: 0;" dir="{CCMS_DB_DIR:index-temp,text-01:1}">
+													{CCMS_DB:index-temp,text-01}
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item" id="item-2">
+						<div class="home-slider__table">
+							<div class="home-slider-table__inner">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-6" style="background-color: rgba(0,0,0,0.5); padding: 15px;">
+											<div class="home-slider__content">
+												<h1 class="animated slideInDown delay-2" style="font-weight: 800; font-size: 36px; color: white; text-transform: uppercase;">
+													Industrial
+												</h1>
+												<p class="animated slideInLeft delay-4" style="text-indent: 0;" dir="{CCMS_DB_DIR:index-temp,text-02:1}">
+													{CCMS_DB:index-temp,text-02}
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item" id="item-3">
+						<div class="home-slider__table">
+							<div class="home-slider-table__inner">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-6" style="background-color: rgba(0,0,0,0.5); padding: 15px;">
+											<div class="home-slider__content">
+												<h1 class="first-child animated slideInDown delay-2" style="font-weight: 800; font-size: 36px; color: white; text-transform: uppercase;">
+													Institutional
+												</h1>
+												<p class="animated slideInLeft delay-4" style="text-indent: 0;" dir="{CCMS_DB_DIR:index-temp,text-03:1}">
+													{CCMS_DB:index-temp,text-03}
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item" id="item-4">
+						<div class="home-slider__table">
+							<div class="home-slider-table__inner">
+								<div class="container">
+									<div class="row">
+										<div class="col-sm-6" style="background-color: rgba(0,0,0,0.5); padding: 15px;">
+											<div class="home-slider__content">
+												<h1 class="first-child animated slideInDown delay-2" style="font-weight: 800; font-size: 36px; color: white; text-transform: uppercase;">
+													Abatement
+												</h1>
+												<p class="animated slideInLeft delay-4" style="text-indent: 0;" dir="{CCMS_DB_DIR:index-temp,text-04:1}">
+													{CCMS_DB:index-temp,text-04}
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<a class="carousel-arrow carousel-arrow-prev" href="#home-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-arrow carousel-arrow-next" href="#home-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="home-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="lead" style="text-indent: 0; margin: 20px 0px;">Under Development</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<div class="home-features">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 dir="{CCMS_DB_DIR:index-temp,header-01:1}">{CCMS_DB:index-temp,header-01}</h1>
+							<p dir="{CCMS_DB_DIR:index-temp,text-05:1}">{CCMS_DB:index-temp,text-05}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		{CCMS_TPL:footer-1.html}
+		<script>
+			function loadFirst(e,t){var a=document.createElement("script");a.async = true;a.readyState?a.onreadystatechange=function(){("loaded"==a.readyState||"complete"==a.readyState)&&(a.onreadystatechange=null,t())}:a.onload=function(){t()},a.src=e,document.body.appendChild(a)}
+
+			var cb = function() {
+				var l = document.createElement('link'); l.rel = 'stylesheet';
+				//l.href = '/ccmstpl/_css/animate.css';
+				l.href = '/ccmstpl/_css/animate.min.css';
+				var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+
+				var l = document.createElement('link'); l.rel = 'stylesheet';
+				//l.href = '/ccmstpl/_css/styles.css';
+				l.href = '/ccmstpl/_css/styles.min.css';
+				var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+
+				var l = document.createElement('link'); l.rel = 'stylesheet';
+				l.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+				var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+
+				var l = document.createElement('link'); l.rel = 'stylesheet';
+				l.href = '//fonts.googleapis.com/css?family=Open+Sans:300';
+				var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+			};
+			var raf = {CCMS_TPL:browser.php}
+			if (raf) raf(cb);
+			else window.addEventListener('load', cb);
+
+			function loadJSResources() {
+				loadFirst("//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js", function(){ // JQuery is loaded
+					loadFirst("//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", function(){ // Bootstrap is loaded
+						loadFirst("/ccmstpl/_js/javascript.js", function(){ // main JavaScript for the site
+
+							navActiveArray.forEach(function(s) {$("#"+s).addClass("active");});
+							navActiveFooterArray.forEach(function(s) {$("#"+s).addClass("active");});
+
+							// Fade in web page.
+							$("#no-fouc").delay(100).animate({"opacity": "1"}, 1000);
+						});
+					});
+				});
+			}
+
+			if (window.addEventListener)
+				window.addEventListener("load", loadJSResources, false);
+			else if (window.attachEvent)
+				window.attachEvent("onload", loadJSResources);
+			else window.onload = loadJSResources;
+		</script>
+		<!-- ported -->
+	</body>
+</html>
